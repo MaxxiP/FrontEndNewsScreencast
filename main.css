@@ -109,6 +109,40 @@ a:focus{
 }
 
 /***********************************
+*           Form
+************************************/
+
+.form{
+    margin-bottom: 20px;
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+}
+
+.form.is-visible{
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.form-label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-input{
+    border: 0;
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+}
+
+/***********************************
 *           Animation
 ************************************/
 
