@@ -48,6 +48,7 @@ a:hover,
 a:active,
 a:focus{
     color: #212121;
+    transition: 0.2s ease-in-out;
 }
 
 /***********************************
@@ -123,6 +124,7 @@ a:focus{
     height: auto;
     opacity: 1;
     visibility: visible;
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
 }
 
 
